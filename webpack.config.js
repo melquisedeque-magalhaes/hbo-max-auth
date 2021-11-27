@@ -42,7 +42,7 @@ module.exports = {
             name: "hboAuth",
             filename: "remoteEntry.js",
             exposes: {
-                "./HboAuth": "./src/routes/index.tsx"
+                "./HboAuth": "./src/App"
             },
             shared: [{
                 ...deps,
